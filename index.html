@@ -4,6 +4,53 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Grid Project</title>
+    <style>
+      .wrapper {
+        display: grid;
+        grid-template-columns: 70% 30%; /* you can also add fraction */
+        grid-gap: 1em;
+      }
+
+      .wrapper > div {
+        background: #eee;
+        padding: 1em;
+      }
+
+      .wrapper > div:nth-child(odd) {
+        background: #ddd;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <div class="wrapper">
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere omnis
+        sapiente velit totam laborum atque dolorum, aliquam, provident, nesciunt
+        cumque ducimus repudiandae placeat explicabo optio quae perspiciatis
+        nihil officia culpa sit rerum quisquam assumenda unde ipsa voluptas.
+        Ipsa voluptates nam, nisi officiis nostrum veritatis ipsum! Sed
+        repellendus culpa impedit. Odit.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
+        consequatur eos culpa ipsa neque velit iste nobis quos temporibus
+        debitis porro, reiciendis omnis. Earum aperiam ipsa fugit possimus amet
+        fugiat?
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere omnis
+        sapiente velit totam laborum atque dolorum, aliquam, provident, nesciunt
+        cumque ducimus repudiandae placeat explicabo optio quae perspiciatis
+        nihil officia culpa sit rerum quisquam assumenda unde ipsa voluptas.
+        Ipsa voluptates nam, nisi officiis nostrum veritatis ipsum! Sed
+        repellendus culpa impedit. Odit.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
+        consequatur eos culpa ipsa neque velit iste nobis quos temporibus
+        debitis porro, reiciendis omnis. Earum aperiam ipsa fugit possimus amet
+        fugiat?
+      </div>
+    </div>
+  </body>
 </html>
